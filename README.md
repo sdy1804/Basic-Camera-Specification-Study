@@ -21,8 +21,8 @@ Each pixel’s physical size(μm unit).
 Fig. Pixel and sensor size
 
 ### Resolution
-Pixel’s total counts that organize images. 
-Sometimes express like Mega Pixel unit(ex. 5MP).
+Pixel’s total counts that organize images.  
+Sometimes express like Mega Pixel unit(ex. 5MP).  
 Megal Pixel is total pixel numbers.  
   
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/3431936d-3aa2-464b-9d93-3119bb0afca3" />  
@@ -31,20 +31,20 @@ Fig. Resolutions
 
 ### Sensor size
 
-sensor size(H) = resolution(H) * pixel size(H)
+sensor size(H) = resolution(H) * pixel size(H)  
 sensor size(W) = resolution(W) * pixel size(W)
 
 ### Frame rate
-Number of frames that camera can get each second.
+Number of frames that camera can get each second.  
   
 <img width="340" height="211" alt="image" src="https://github.com/user-attachments/assets/b571f081-b823-4196-bd25-1684998dd6d5" />
   
 Fig. Example of frame rate
 
 ### Shutter speed
-Amount of time that the sensor receives light.
-The longer exposure time, image will be more brighter by accepting more light, but motion blur can occur on moving objects.
-On the contrary, short exposure time can darken image, but you can get clear image by reducing motion blur.
+Amount of time that the sensor receives light.  
+The longer exposure time, image will be more brighter by accepting more light, but motion blur can occur on moving objects.  
+On the contrary, short exposure time can darken image, but you can get clear image by reducing motion blur.  
 
 ### FOV
 Field Of View. Size of area that camera can check at once.
@@ -69,24 +69,24 @@ Fig. Example of camera setting
 
 - Area scan camera
 
-Feature
+Feature  
 Camera for capturing 2D images at once.
 
-Pros
+Pros  
 Able to apply a wide range of applications.
 
-Cons
+Cons  
 Inappropriate for pretty long object or continuous surface inspection. That kind of objects can’t capture at once.
 
 - Line scan camera
 
-Feature
+Feature  
 Using 1D linear sensor. Take a picture in line units to obtain 2D image.
 
-Pros
+Pros  
 A detailed inspection of long objects with high resolution.
 
-Cons
+Cons  
 Should synchronize with camera’s capture time and object’s movement time.
   
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/d474413d-7d0d-43c8-8e38-80c23cf2992a" />  
@@ -95,16 +95,16 @@ Fig. Area scan and line scan camera
 
 - 3D camera
 
-Feature
-Camera for capturing 3D datas including depth information.
-There are some type of principle to get 3D information.
+Feature  
+Camera for capturing 3D datas including depth information.  
+There are some type of principle to get 3D information.  
 
-Pros
-Able to analyze objects with complex shapes or structures with 3D scanning.
+Pros  
+Able to analyze objects with complex shapes or structures with 3D scanning.  
 
-Cons
-Projected pattern could be disturbed by bright light environment.
-Distortion can occured in surface that has high reflection.
+Cons  
+Projected pattern could be disturbed by bright light environment.  
+Distortion can occured in surface that has high reflection.  
   
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/ab1dea7c-4453-4bfa-b024-559f526ff49a" />  
   
@@ -114,28 +114,28 @@ Fig. 3D camera image
 
 - Monochrome
 
-Feature
+Feature  
 Use a sensor that detects only the brightness intensity.
 
-Pros
+Pros  
 High sensitivity and performance in low illumination.
 Fast data processing due to single channel.
 Wide spectrum range (including IR and UV).
 
-Cons
+Cons  
 No color information -> Limited application area.
 
 - Color
 
-Feature
+Feature  
 Bayer filter that each pixel can get only one color.
 Post-processing that we call demosaicing.
 
-Pros
+Pros  
 Able to get color information.
 Intuitive visualization by using color channel.
 
-Cons
+Cons  
 Low sensitivity and performance in low illumination.
 More datas to process than monochrome camera.
 
@@ -175,8 +175,8 @@ However, larger pixel sizes at the same sensor size result in lower resolution.
 
 ### Lens
 
-- Focal length
-The longer focal length, the larger narrow area is.
+- Focal length  
+The longer focal length, the larger narrow area is.  
 The shorter focal length, the wider area you can see.
   
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/668b45d7-e103-4a5f-b437-99aec8453ca6" />
@@ -191,8 +191,8 @@ Fig. Example of focal length
 
 - Working distance
 
-- Aperture
-The part that controls the amount of light passing through the lens.
+- Aperture  
+The part that controls the amount of light passing through the lens.  
 The smaller the F-stop value, the larger the aperture, the more light comes in, and the depth of field becomes shallower.
   
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/ab623cfc-fe81-43d5-934b-5d621253ca21" />
@@ -203,6 +203,6 @@ Fig. Example of adjusting aperture
   
 Fig. DOF change along to aperture
 
-- Lens mount
-S-mount, CS-mount, C-mount, etc.
+- Lens mount  
+S-mount, CS-mount, C-mount, etc.  
 Ensure that the camera and lens are compatible.
